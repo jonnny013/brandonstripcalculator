@@ -6,11 +6,14 @@
   color-scheme: light dark;
   color: rgb(2, 2, 2);
   background-image: url('/newyorkbackground.jpeg');
-
+background-repeat: no-repeat;
+background-size: cover; 
+  background-position: center; 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
 }
 
 body {

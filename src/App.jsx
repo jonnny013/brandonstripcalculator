@@ -1,4 +1,3 @@
-
 import './App.css'
 import Confetti from 'react-confetti'
 import Form from './Form'
@@ -14,17 +13,21 @@ function App() {
    )
 
   return (
-    <>
-      <h1>New York Count Down</h1>
-      <Form />
-      <Confetti />
-      <footer>
+    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+      <div style={{ flex: 1 }}>
+        <h1>New York Count Down</h1>
+        <Form />
+        <Confetti />
+      </div>
+      <footer
+        style={{ backgroundColor: 'lightgray', padding: '20px', marginTop: 'auto' }}
+      >
         <p>
           Thank you for visiting. See more here:{' '}
           <a href='https://jon-love-portfolio.fly.dev'>Jon Love&apos;s Portfolio</a>
         </p>
       </footer>
-    </>
+    </div>
   )
 }
 

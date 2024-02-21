@@ -47,7 +47,7 @@ const Form = () => {
         padding: 20,
         display: 'flex',
         flexDirection: 'column',
-        maxWidth: 400,
+        maxWidth: 345,
         margin: 'auto',
         marginBottom: 20,
         borderRadius: 6,
