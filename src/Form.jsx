@@ -44,10 +44,10 @@ const Form = () => {
     <div
       style={{
         backgroundColor: 'rgba(255, 255, 255, 0.5)',
-        padding: 20,
+        padding: 15,
         display: 'flex',
         flexDirection: 'column',
-        maxWidth: 345,
+        maxWidth: 325,
         margin: 'auto',
         marginBottom: 20,
         borderRadius: 6,

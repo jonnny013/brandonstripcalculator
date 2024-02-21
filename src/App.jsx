@@ -1,6 +1,7 @@
 import './App.css'
 import Confetti from 'react-confetti'
 import Form from './Form'
+import Footer from './Footer'
 
 
 
@@ -19,14 +20,7 @@ function App() {
         <Form />
         <Confetti />
       </div>
-      <footer
-        style={{ backgroundColor: 'lightgray', padding: '20px', marginTop: 'auto' }}
-      >
-        <p>
-          Thank you for visiting. See more here:{' '}
-          <a href='https://jon-love-portfolio.fly.dev'>Jon Love&apos;s Portfolio</a>
-        </p>
-      </footer>
+      <Footer />
     </div>
   )
 }
